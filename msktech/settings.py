@@ -21,6 +21,9 @@ https://docs.djangoproject.com/en/4.1/ref/settings/
 # Email address: srikanthvd9@gmail.com
 # password : Svit@1999
 
+# remote url to push
+# git remote set-url origin https://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@github.com/SreekanthMSK/msktech.git
+
 from pathlib import Path
 import environ
 import os.path
@@ -98,7 +101,7 @@ DATABASES = {
         "PORT": "5432",
     }
 }
-
+# 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
 # Password validation
 # https://docs.djangoproject.com/en/4.1/ref/settings/#auth-password-validators
 
